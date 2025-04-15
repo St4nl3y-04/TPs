@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Le Juste Nombre</title>
+    <script src="ex.js"></script>
+</head>
+<body>
+    <h1>Le Juste Nombre</h1>
+    <p>Choose a difficulty level to start:</p>
+    <button onclick="startGame('easy')">Easy (0-1000)</button>
+    <button onclick="startGame('medium')">Medium (0-1,000,000)</button>
+    <button onclick="startGame('hard')">Hard (0-1,000,000,000)</button>
+    <p id="message">Select a level to begin.</p>
+    <input type="number" id="guessInput" placeholder="Enter your guess">
+    <button onclick="checkGuess()">Submit Guess</button>
+    <p id="stats">Games Played: 0, Best Score: N/A</p>
+</body>
+</html>

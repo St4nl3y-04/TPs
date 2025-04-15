@@ -1,0 +1,43 @@
+body {
+    background-image: url('image.png'); /* Remplacez 'image.png' par le chemin de votre image */
+    background-size: cover; /* Ajuste l'image pour couvrir tout l'arrière-plan */
+    background-repeat: no-repeat; /* Empêche la répétition de l'image */
+    background-position: center; /* Centre l'image */
+}
+
+.tii {
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: flex-start; /* Aligns to the top */
+    font-size: 5em;
+    font-weight: bold;
+}
+.image-container {
+    display: flex;
+    justify-content: center; /* Centre les images horizontalement */
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px; /* Espace entre les images */
+    margin-top: 20px; /* Espace au-dessus des images */
+}   
+
+.image-box {
+    text-align: center; /* Centre le texte sous l'image */
+    border: 2px solid #ccc; /* Bordure autour de l'image */
+    padding: 10px; /* Espace interne autour de l'image */
+    border-radius: 10px; /* Coins arrondis */
+    background-color: #fff; /* Couleur de fond */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Ombre pour un effet de relief */
+}
+
+.image-box img {
+    width: 150px; /* Largeur des images */
+    height: auto; /* Maintient les proportions */
+    border-radius: 5px; /* Coins arrondis pour l'image */
+}
+
+.image-box p {
+    margin-top: 10px; /* Espace entre l'image et le texte */
+    font-size: 1em; /* Taille du texte */
+    font-weight: bold; /* Texte en gras */
+}

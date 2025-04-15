@@ -1,0 +1,27 @@
+body {
+    background: #000000;
+}
+
+h1 {
+    color: white;
+    font-size: 50px;
+    margin-top: 50px;
+}
+img {
+    width: 125px;
+}
+ td {
+    text-align: center;
+    color: white;
+}
+.text-cell{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    
+}
+.image-cell:active .text-cell{
+    color: yellow
+}
+.image{
+    width: 300px;
+}

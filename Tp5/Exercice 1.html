@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Convertisseur de Devises</title>
+    
+</head>
+<body>
+    <div class="container">
+        <h1>Convertisseur de Devises</h1>
+        <p>Sélectionnez une devise et entrez un montant pour le convertir en Dirhams Marocains.</p>
+        <form id="converter-form">
+            <select id="taux_change">
+                <option value="9.76">Dollar Américain</option>
+                <option value="7.75">Dollar Canadien</option>
+                <option value="10.73">Euro</option>
+                <option value="12.83">Livre Britannique</option>
+                <option value="0.54">Livre Égyptienne</option>
+                <option value="0.068">Dinar Algérien</option>
+                <option value="2.60">Riyal Saoudien</option>
+            </select>
+            <input type="number" id="montant" placeholder="Entrez le montant" required>
+            <button type="button" onclick="convertir()">Convertir</button>
+        </form>
+        <div class="result" id="resultat"></div>
+    </div>
+<script src="ex.js"></script>
+</body>
+</html> 
