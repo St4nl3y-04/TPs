@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Audiowide&display=swap");
+
+.top-section {
+    height: 8cm; /* Set height to 8 centimeters */
+    width: 100%; /* Full screen width */
+    background-color: #2d79c5; /* Light gray background */
+    display: flex;
+    align-items: center;
+    padding-left: 1cm; /* Left padding of 2 centimeters */
+    border-bottom: 2px solid #ddd; /* Optional border for separation */
+}
+.profile-picture {
+    height: 5cm; /* Adjust the size of the picture */
+    width: 5cm;
+    border-radius: 50%; /* Make the picture circular */
+    object-fit: cover; /* Ensure the image fits within the circle */
+    border: 3px solid #090a0b; /* Optional border around the picture */
+}
+
+h1 {
+  --s: 0.1em;   /* the thickness of the line */
+  --c: #a60810; /* the color */
+  
+  color: #0000;
+  padding-bottom: var(--s);
+  background: 
+    linear-gradient(90deg,var(--c) 50%,#000 0) calc(100% - var(--_p,0%))/200% 100%,
+    linear-gradient(var(--c) 0 0) 0% 100%/var(--_p,0%) var(--s) no-repeat;
+  -webkit-background-clip: text,padding-box;
+          background-clip: text,padding-box;
+  transition: 0.5s;
+}
+h1:hover {--_p: 100%}
+
+h1 {
+  padding-left: 0cm;
+  font-family: "Audiowide";
+  font-size: 3rem;
+  cursor: pointer;
+}
+.btn-outline-custom {
+  border: 2px solid;
+  background-color: transparent;
+  font-weight: bolder;
+  color: inherit;
+  padding: 0.375rem 0.75rem; /* Assurez-vous que le padding est constant */
+  transition: background-color 0.3s, color 0.3s; /* Animation fluide */
+}
+.btn-outline-custom:hover {
+  color: #fff;
+}
+
+/* Variantes de couleurs */
+.btn-outline-custom.linkedin {
+  border-color: #02026e;
+  color: #02026e;
+}
+.btn-outline-custom.linkedin:hover {
+  background-color: #02026e;
+}
+
+.btn-outline-custom.github {
+  border-color: #333;
+  color: #333;
+}
+.btn-outline-custom.github:hover {
+  background-color: #333;
+}
+
+.btn-outline-custom.email {
+  border-color: #800303;
+  color: #800303;
+}
+.btn-outline-custom.email:hover {
+  background-color: #800303;
+}
