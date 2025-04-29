@@ -9,6 +9,24 @@
     padding-left: 1cm; /* Left padding of 2 centimeters */
     border-bottom: 2px solid #ddd; /* Optional border for separation */
 }
+.about-section {
+    height: 5cm; /* Set height to 8 centimeters */
+    width: 24cm; /* Full screen width */
+    background-color: #979a9c; /* Light gray background */
+    display: flex;
+    padding-left: 10px; /* Left padding of 2 centimeters */
+    border-radius: 10px;
+    border-bottom: 2px solid #ddd; /* Optional border for separation */
+}
+.skills-section {
+    height: 8cm; /* Set height to 8 centimeters */
+    width: 24cm; /* Full screen width */
+    background-color: #979a9c; /* Light gray background */
+    display: flex;
+    padding-left: 10px; /* Left padding of 2 centimeters */
+    border-radius: 10px;
+    border-bottom: 2px solid #ddd; /* Optional border for separation */
+}
 .profile-picture {
     height: 5cm; /* Adjust the size of the picture */
     width: 5cm;
@@ -47,7 +65,7 @@ h1 {
   transition: background-color 0.3s, color 0.3s; /* Animation fluide */
 }
 .btn-outline-custom:hover {
-  color: #fff;
+  color: #ffffff;
 }
 
 /* Variantes de couleurs */
@@ -57,6 +75,7 @@ h1 {
 }
 .btn-outline-custom.linkedin:hover {
   background-color: #02026e;
+  color: #ffffff;
 }
 
 .btn-outline-custom.github {
